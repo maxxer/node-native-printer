@@ -14,7 +14,7 @@ A node module to natively print your files
    * **[node-gyp](https://github.com/nodejs/node-gyp)** to build native modules
    * **[cups](https://www.cups.org/)** (Linux only). You need libcups2-dev and libcups2. The first contains source code needed to build native modules, the second contains command-line executables needed in order to print. **It may also need libcups2 in production**. See [API](#api)
 
-## Imporant notes
+## Important notes
 
 Due to important differences in enviroments and ecosystems between Microsoft and Unix-based systems, this module has been written in C++ for Unix and C# for Windows. This can result in different behaviours during the execution of the methods (such as different execution time, returning values, allowed options for printer, etc.).
 
